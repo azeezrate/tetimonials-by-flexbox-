@@ -10,7 +10,8 @@ footer{
     margin: 20px auto;
 }
 body{
-    background-color: #EDF2F8;
+    /* background-color: #EDF2F8; */
+    background-color: red;
     width: 100%;
 
 }
