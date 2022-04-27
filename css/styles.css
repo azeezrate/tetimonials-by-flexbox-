@@ -10,8 +10,8 @@ footer{
     margin: 20px auto;
 }
 body{
-    /* background-color: #EDF2F8; */
-    background-color: red;
+    background-color: #EDF2F8;
+    
     width: 100%;
 
 }
@@ -52,9 +52,34 @@ body{
     align-items: center;
     justify-content: center;
     position: relative;
+
     
 }
 
+.box2 .member-quote{
+    color: #c4c2c2;
+}
+.box4 .member-quote{
+    color: #c4c2c2;
+}
+.quote-img{
+    position: absolute;
+    /* float: right;
+    margin-left: 60%;
+    margin-top: -60px; */
+    right: 20%;
+    top:0%;
+    z-index: 1;
+
+}
+.box1 .msg-title{
+    /* position: absolute; */
+    z-index: 2;
+}
+.box1 .member-quote{
+    color: #c4b0e4;
+   padding-top: 700px;
+}
 .member-img{
     border-radius: 50%;
     width: 40px;
@@ -104,6 +129,7 @@ body{
 }
 .box1{
     flex-basis: 2fr;
+    
     
 }
 .box2{
